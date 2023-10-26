@@ -29,7 +29,7 @@ function testBatteryClassification() {
   // Asserts
   console.assert(result.healthy === 2, "Expected 2 healthy batteries");
   console.assert(result.exchange === 2, "Expected 2 batteries for exchange");
-  console.assert(result.failed === 2, "Expected 2 failed batteries");
+  console.assert(result.failed === 2, "Expected 2 failed batteries" );
 }
 
 testBatteryClassification();
